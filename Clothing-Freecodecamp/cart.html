@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>Clothing Store</h1>
+
+        <a href="cart.html"><button class="shopping-cart"><i class="fa-solid fa-cart-shopping" ></i><sup>0</sup></button></a>
+    </nav>
+
+    <div class="cart-display">
+        <h2>Total Bill : $50</h2>
+        <button class="cart-btn checkout-btn">Checkout</button>
+        <button class="clear-cart-btn cart-btn">Clear Cart</button>
+    </div>
+    <div class="cart-card-container">
+        <div class="checkout-img-card">
+            <div class="card-content">
+                <div class="checkout-bg-img"></div>
+                <p class="item-name-price">Office Shirt $100</p>
+                <div><span class="minus">-</span><span class="qty">0</span> <span class="add">+</span></div>
+                <p class="total-item-price">$300(1)</p>
+                
+            </div>
+            <div class="delete-p">x</div>
+        </div>
+
+        <div class="checkout-img-card">
+            <div class="card-content">
+                <div class="checkout-bg-img2"></div>
+                <p class="item-name-price">Office Shirt $ <span class="item-price">100</span></p>
+                <div><span class="minus">-</span><span class="qty">0</span> <span class="add">+</span></div>
+                <p class="total-item-price">$ <span class="total-price">300</span>(2)</p>
+                
+            </div>
+            <div class="delete-p">x</div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
